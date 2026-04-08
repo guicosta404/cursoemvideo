@@ -57,4 +57,15 @@
 #        print(f"{listagem[pos]:.<30} ", end='')
 #    else:
 #        print(f"R${listagem[pos]:>7.2f}")
-     
+
+#77
+
+
+# palavras = ("Barcelona", "time", "viado")
+
+# for palavra in palavras:
+#     print(f'\nNa palavra {palavra.upper()} temos as vogais', end='')
+#     for letra in palavra:
+#         if letra in "aeiou":
+#             print(letra, end=' ')
+        
