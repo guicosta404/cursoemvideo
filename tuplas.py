@@ -45,4 +45,16 @@
 #for n in num:
 #    if n % 2 == 0:
 #        print(n, end=' ')
+
+#76
+
+#listagem = ("Lápis", 1.75,
+#            "Borracha", 2,
+#            "Caderno", 15.90)
+
+#for pos in range(len(listagem)):
+#    if pos % 2 == 0:
+#        print(f"{listagem[pos]:.<30} ", end='')
+#    else:
+#        print(f"R${listagem[pos]:>7.2f}")
      
