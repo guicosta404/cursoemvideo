@@ -31,3 +31,18 @@
 #print(f'O menor valor sorteado foi {min(n)}')       
 
 
+#75
+
+#num = (int(input('Digite o primeiro: ')), int(input('Digite o segundo: ')), int(input('Digite o terceiro: ')), int(input('Digite o quarto: ')) )
+
+#print(f'Voce digitou os numeros {num}')
+#print(f'O valor 9 apareceu {num.count(9)}')
+#if 3 in num:
+#    print(f'O número 3 apareceu na {num.index(3)+1}ª posição.')
+#else:
+#    print('O valor 3 nao foi digitado.')
+#print('Os numeros pares digitados foram: ', end=' ')    
+#for n in num:
+#    if n % 2 == 0:
+#        print(n, end=' ')
+     
