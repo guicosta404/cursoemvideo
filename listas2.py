@@ -1,3 +1,5 @@
+# 84
+
 # lista = list()
 # dados = list()
 # maior = 0
@@ -28,3 +30,21 @@
 # for p in lista:
 #     if p[1] == menor:
 #         print(f"[{p[0]}] ", end='')
+
+# 85
+
+# valores = [[], []]
+# valor = 0
+
+# for c in range(0,8):
+#     valor = int(input("Digite um valor: "))
+#     if valor % 2 == 0:
+#         valores[0].append(valor)
+#     else:
+#         valores[1].append(valor)    
+
+# valores[0].sort()
+# valores[1].sort()
+# print(f"Os valores pares foram {valores[0]}")
+# print(f"Os valores ímpares foram {valores[1]}")
+# print(valores[0])       
