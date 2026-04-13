@@ -102,4 +102,59 @@
 #     print()    
     
 
+# #87
+# from random import randint
+# from time import sleep
+
+# temp = []
+# lista = []
+# jogos = int(input('Quantos jogos? '))
+# total = 1
+# while total <= jogos:
+#     cont = 0
+#     while True:
+#         num = randint(1,60)
+#         if num not in temp:
+#             temp.append(num)
+#             cont += 1
+#         if cont >= 6:
+#             break  
+#     temp.sort()     
+#     lista.append(temp[:])   
+#     temp.clear()
+#     total += 1
+
+# print('-='*3, f'SORTEANDO {jogos} JOGOS', '-='*3)
+# for i, l in enumerate(lista):
+#     print(f'Jogo {i+1}: {l}')
+#     sleep(1)
+# print('-=' *5, 'BOA SORTE', '-='*5)  
+
+
+#89
+
+# ficha = []
+# alunos = []
+
+
+# while True:
+#     nome = str(input('Digite o nome do aluno: '))
+#     nota1 = float(input('Digite a nota 1: '))
+#     nota2 = float(input('Digite a nota 2: '))
+#     media = (nota1 + nota2) / 2
+#     ficha.append([nome, [nota1, nota2], media])
+#     resp = str(input('Quer continuar? [S/N] ').strip().lower())
+#     if 'n' in resp:
+#         break
+# print(f'{"No.":<4}{"NOME":<10}{"MÉDIA":>8}')
+# for i, a in enumerate(ficha):
+#     print(f'{i:<4}{a[0]:<10}{a[2]:>8.1f}')
+
+# while True:
+#     escolha = int(input('Mostrar notas do aluno (999 para finalizar): '))
+#     if escolha == 999:
+#         print('FINALIZADO')
+#         break
+#     if escolha <= len(ficha) - 1:
+#         print(f'As notas de {ficha[escolha][0]} são {ficha[escolha][1]}')
 
