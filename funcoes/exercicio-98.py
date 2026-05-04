@@ -1,10 +1,27 @@
-def contador(*nums,):
-    print('Contagem de 1 a 10 de 1 em 1: ')
-    for i in range(1,11):
-        print(f'{i} ', end=' ')
-    print('~'*30)
-
-    for i in range (10, 0, -2):
-        print('Contagem de 10 a 0 de 2 em 2: ')
-        print(f'{i} ', end='')
-
+def contador(i, f, p):
+    if p < 0:
+        p *= -1
+    if p == 0:
+        p == 1 
+    print(f'Contagem de {i} a {f} de {p} em {p}: ')    
+    if i < f:
+        cont = i
+        while cont<= f:
+            print(f'{cont} ', end='')
+            cont += p
+        print('Fim')
+    else:
+        cont = i
+        while cont >= f:
+            print(f'{cont} ',end='')
+            cont -= p
+        print('Fim')    
+    
+#programa principal 
+contador(1,10,1)
+contador(10,0, 2)
+print('Personalizar contagem')
+inicio = int(input('Inicio: '))
+fim = int(input('Fim: '))
+passo = int(input('Passo: '))
+contador(inicio, fim, passo)
